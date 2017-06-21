@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_ef61361fac6520a0eef3d99094c3e3616eb6b54a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_4eb295406f890b3500c38250ede2f9396b81daec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_423ffce04d8d0b79ef50b74f286c73c5c5e198c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd97cd6bc17f11664f7fa7b0a8a14655a68878e">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_121004e0d0d5ab24d7be0c0097b86d9582ae3f50/classes.dex" />
+    </item>
+
+</items>
