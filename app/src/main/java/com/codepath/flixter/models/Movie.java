@@ -15,10 +15,13 @@ public class Movie {
     private String overview;
     private String posterPath; // only the path
 
+    private String backdropPath;
+
     public Movie(JSONObject object) throws JSONException{
         title = object.getString("title");
         overview = object.getString("overview");
         posterPath = object.getString("poster_path");
+        backdropPath = object.getString("backdrop_path");
     }
 
     public String getTitle() {
@@ -43,5 +46,9 @@ public class Movie {
 
     public void setPosterPath(String posterPath) {
         this.posterPath = posterPath;
+    }
+
+    public String getBackdropPath() {
+        return backdropPath;
     }
 }
