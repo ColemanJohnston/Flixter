@@ -2,20 +2,22 @@ package com.codepath.flixter.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 /**
  * Created by colemanmav on 6/21/17.
  */
 
+@Parcel
 public class Movie {
 
     //values form api
+    String title;
+    String overview;
+    String posterPath; // only the path
+    String backdropPath;
 
-    private String title;
-    private String overview;
-    private String posterPath; // only the path
-
-    private String backdropPath;
+    public Movie(){}
 
     public Movie(JSONObject object) throws JSONException{
         title = object.getString("title");
