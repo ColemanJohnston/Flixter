@@ -3,12 +3,75 @@
 
     <item
         is-multidex="true"
+        jar="/Users/colemanmav/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_45fd42b039e7372d1a961f4d8a20d52ee660eac9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/2bfdea03931348f407c80578c7b74760f6b29ab3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6274f2242b987ce51d8826e0236d02f97680dd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/4fe92bb3f05d5b29ed792109d9174a3b7847b403/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5362278c74ae24c8bb4112db5daabe9acc204329/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.0"
+        revision="25.0.3"
         sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_ef61361fac6520a0eef3d99094c3e3616eb6b54a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/a70bd803409832ac94e4fea717670b5ad46973ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_730de4fd7dac7067489385424642a4c0a661e544/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/129ec4cc378a9b7e006816f867060ff2038be0c0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86a58c2d519710c4660c898c028898e445b14372/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/45a156f78170e2309bf8604100ee70c630a83cc8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d264b622e802eda5284b4bd003932260d886a294/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/0cd06531e6e4f259c3eae65eff772cd789d5dd36/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc210fb9edb38cc38cc942686b2ea754c68f4581/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,6 +84,51 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/0b35a706ffa0096fa3778a7b34bb40ba6f723dc9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1f07e488368715e1ae8d9288a75a79d60f8b190/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44a102fe1a2153263acef73f7e55b20c826de492">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_121004e0d0d5ab24d7be0c0097b86d9582ae3f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/8a54342643c0ee4b7834a67f2769d57237b73ec9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1ba76075f1c11bd20e6f452914b52c7301b74d13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_ef61361fac6520a0eef3d99094c3e3616eb6b54a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/c48fc57f408ea6b6c73b6a55292abe5cacf16f2b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a89fbd880f91f70ea0b69b457b990fe4162c73b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -30,12 +138,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_423ffce04d8d0b79ef50b74f286c73c5c5e198c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_ae545c02631d7cf2b249d9afea0368b50d68f03a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_4eb295406f890b3500c38250ede2f9396b81daec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="fcd97cd6bc17f11664f7fa7b0a8a14655a68878e">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_121004e0d0d5ab24d7be0c0097b86d9582ae3f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/0ef85c5193c1609bc4644274afa21f02608e3a1f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64d7b2f8734c7cab9551c0ef1b380ed01b504609/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/d64e55faccbacc4a7467825a6653d4df47f8fac3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6dc88dc079c76ffa48e3b269effb7c27a70ccc87/classes.dex" />
     </item>
 
 </items>
