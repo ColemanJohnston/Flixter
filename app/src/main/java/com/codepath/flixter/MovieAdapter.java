@@ -8,9 +8,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.codepath.flixter.models.Config;
 import com.codepath.flixter.models.Movie;
 
 import java.util.ArrayList;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 /**
  * Created by colemanmav on 6/21/17.
@@ -20,6 +24,14 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     //list of movies
     ArrayList<Movie> movies;
 
+    Config config;
+
+    Context context;
+
+    public void setConfig(Config config) {
+        this.config = config;
+    }
+
     public MovieAdapter(ArrayList<Movie> movies){
         this.movies = movies;
     }
@@ -27,7 +39,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     //creates and inflates a new view
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        Context context = parent.getContext();
+        this.context = parent.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
 
         View movieView = inflater.inflate(R.layout.item_movie, parent, false);
@@ -41,7 +53,14 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         holder.tvTitle.setText(movie.getTitle());
         holder.tvOverview.setText(movie.getOverview());
 
-        //TODO - set image using Glide
+        String imageUrl = config.getImageUrl(config.getPosterSize(),movie.getPosterPath());
+
+        Glide.with(context)
+                .load(imageUrl)
+                .bitmapTransform(new RoundedCornersTransformation(context, 25, 0))
+                .placeholder(R.drawable.flicks_movie_placeholder)
+                .error(R.drawable.flicks_movie_placeholder)
+                .into(holder.ivPosterImage);
     }
 
     //returns the total number of items in the list

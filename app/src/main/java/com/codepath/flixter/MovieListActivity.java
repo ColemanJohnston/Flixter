@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.codepath.flixter.models.Config;
 import com.codepath.flixter.models.Movie;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -37,12 +38,6 @@ public class MovieListActivity extends AppCompatActivity {
     //instance fields
     AsyncHttpClient client;
 
-    //the base url for loading images
-    String imageBaseUrl;
-
-    //poster size for base url
-    String posterSize;
-
     ArrayList<Movie> movies;
 
     //the recycler view
@@ -50,6 +45,8 @@ public class MovieListActivity extends AppCompatActivity {
 
     //the adapter wired to the recycler view
     MovieAdapter adapter;
+
+    Config config;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,12 +78,10 @@ public class MovieListActivity extends AppCompatActivity {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {
-                    JSONObject images = response.getJSONObject("images");
-                    imageBaseUrl = images.getString("secure_base_url");
-                    JSONArray posterSizeOptions = images.getJSONArray("poster_sizes");
+                    config = new Config(response);
+                    Log.i(TAG, String.format("Loaded configuration with imageBaseUrl %s and posterSize %s", config.getImageBaseUrl(), config.getPosterSize()));
 
-                    posterSize = posterSizeOptions.optString(3,"w342");
-                    Log.i(TAG, String.format("Loaded configuration with imageBaseUrl %s and posterSize %s", imageBaseUrl, posterSize));
+                    adapter.setConfig(config);
 
                     //get the now playing movie list after getting the configuration
                     getNowPlaying();

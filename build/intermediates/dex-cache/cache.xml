@@ -93,6 +93,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/31957021b0aa1e2469c8a78ba46c38d0fad88217/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb9f1cef6b29492df701111c555908cb53dece35">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a0f807dfe4dd75eac99afdd2168dd46b59ebfe4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/colemanmav/codepath/Flixter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -108,6 +117,15 @@
         revision="25.0.3"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1ba76075f1c11bd20e6f452914b52c7301b74d13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/56aacfc92220626aeef62c5daf77cc906f7022b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3305fe8fabbf56b45fa503d29d691bc84290ff23">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_463b4724913b7e73ddf0f28dea80a96121e6a044/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,6 +180,15 @@
         revision="25.0.3"
         sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_4eb295406f890b3500c38250ede2f9396b81daec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.8.0/9bada650e1afe9c6174ddc0d113c1fce4dc26fe0/glide-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.8.0_b2add433c619f63f2227c90382ecfdf89d8b935c/classes.dex" />
     </item>
     <item
         is-multidex="true"
