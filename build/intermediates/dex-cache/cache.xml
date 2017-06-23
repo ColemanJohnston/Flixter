@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="7144732a06b4e7a7b552b6d542335c3d47035ba6">
+        sha1="a9dbdc6b4be16631c955be6ea151d92eaa38e590">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_121004e0d0d5ab24d7be0c0097b86d9582ae3f50/classes.dex" />
     </item>
     <item
@@ -234,6 +234,15 @@
         revision="26.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_423ffce04d8d0b79ef50b74f286c73c5c5e198c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/codepath/Flixter/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_2eb669b3076860781cf997f84e60abbefd884bbd/classes.dex" />
     </item>
     <item
         is-multidex="true"

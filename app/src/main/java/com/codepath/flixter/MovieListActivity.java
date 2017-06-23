@@ -32,8 +32,6 @@ public class MovieListActivity extends AppCompatActivity {
 
     public static final String API_KEY_PARAM = "api_key";
 
-    //TODO: switch to butterknife in this file
-
     //tag for logging
     public final String TAG = "MovieListActivity";
 
@@ -60,11 +58,12 @@ public class MovieListActivity extends AppCompatActivity {
 
         adapter = new MovieAdapter(movies);
 
+        //bind views to variables before setting layout manager
+        ButterKnife.bind(this);
+
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
         rvMovies.setAdapter(adapter);
-        ButterKnife.bind(this);
-
         getConfiguration();
     }
 
