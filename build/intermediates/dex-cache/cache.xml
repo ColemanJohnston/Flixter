@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_31e2717d0af612eecbb6ace83820e18294e27d3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/colemanmav/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
         jumboMode="true"
         optimize="true"
@@ -198,6 +207,15 @@
         revision="25.0.3"
         sha1="3305fe8fabbf56b45fa503d29d691bc84290ff23">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_463b4724913b7e73ddf0f28dea80a96121e6a044/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/colemanmav/.android/build-cache/3afd11bd81816b9437a524f2a82f4f64549d5de8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0617b011893a76c303608a2d740bf22eca4e3a06/classes.dex" />
     </item>
     <item
         is-multidex="true"
