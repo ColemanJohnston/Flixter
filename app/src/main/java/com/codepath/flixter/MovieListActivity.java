@@ -19,6 +19,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cz.msebera.android.httpclient.Header;
 
 public class MovieListActivity extends AppCompatActivity {
@@ -30,7 +32,7 @@ public class MovieListActivity extends AppCompatActivity {
 
     public static final String API_KEY_PARAM = "api_key";
 
-    // the api key TODO: move to a more secure location
+    //TODO: switch to butterknife in this file
 
     //tag for logging
     public final String TAG = "MovieListActivity";
@@ -41,7 +43,7 @@ public class MovieListActivity extends AppCompatActivity {
     ArrayList<Movie> movies;
 
     //the recycler view
-    RecyclerView rvMovies;
+    @BindView(R.id.rvMovies) RecyclerView rvMovies;
 
     //the adapter wired to the recycler view
     MovieAdapter adapter;
@@ -58,11 +60,10 @@ public class MovieListActivity extends AppCompatActivity {
 
         adapter = new MovieAdapter(movies);
 
-        rvMovies = (RecyclerView) findViewById(R.id.rvMovies);
-
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
         rvMovies.setAdapter(adapter);
+        ButterKnife.bind(this);
 
         getConfiguration();
     }
