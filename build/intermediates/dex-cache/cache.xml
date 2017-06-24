@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="a9dbdc6b4be16631c955be6ea151d92eaa38e590">
+        sha1="1522d00898b6efec5ff007656a7d7ce7e4f6fe1d">
         <dex dex="/Users/colemanmav/codepath/Flixter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_121004e0d0d5ab24d7be0c0097b86d9582ae3f50/classes.dex" />
     </item>
     <item

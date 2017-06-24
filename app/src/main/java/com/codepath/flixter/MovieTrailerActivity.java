@@ -16,7 +16,19 @@ public class MovieTrailerActivity extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_trailer);
 
-        final String videoId = "tKodtNFpzBA";
+        String youTubeKey;
+        if (savedInstanceState == null) {
+            Bundle extras = getIntent().getExtras();
+            if(extras == null) {
+                youTubeKey = null;
+            } else {
+                youTubeKey = extras.getString("youTubeKey");
+            }
+        } else {
+            youTubeKey = (String) savedInstanceState.getSerializable("youTubeKey");
+        }
+
+        final String videoId = youTubeKey;
 
         YouTubePlayerView playerView = (YouTubePlayerView) findViewById(R.id.player);
 

@@ -1,12 +1,17 @@
 package com.codepath.flixter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.codepath.flixter.models.Config;
 import com.codepath.flixter.models.Movie;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -19,7 +24,9 @@ import org.parceler.Parcels;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cz.msebera.android.httpclient.Header;
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 import static com.loopj.android.http.AsyncHttpClient.log;
 
@@ -32,6 +39,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
     public static final String TAG = "MovieDetailsActivity";
 
     Movie movie;
+    Config config;
     AsyncHttpClient client;
     String trailerId;
 
@@ -39,6 +47,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
     @BindView(R.id.tvTitle) TextView tvTitle;
     @BindView(R.id.tvOverview) TextView tvOverview;
     @BindView(R.id.rbVoteAverage) RatingBar rbVoteAverage;
+    @BindView(R.id.ivBackdropImage) ImageView ivBackdropImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +59,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         movie = (Movie) Parcels.unwrap(getIntent().getParcelableExtra(Movie.class.getSimpleName()));
+        config = (Config) Parcels.unwrap(getIntent().getParcelableExtra(Config.class.getSimpleName()));
         log.d("MovieDetailsActivity", String.format("Showing details for '%s'", movie.getTitle()));
 
         tvTitle.setText(movie.getTitle());
@@ -58,9 +68,20 @@ public class MovieDetailsActivity extends AppCompatActivity {
         float voteAverage = movie.getVoteAverage().floatValue();
         rbVoteAverage.setRating(voteAverage = voteAverage > 0 ? voteAverage / 2.0f : voteAverage);
 
+        displayBackdrop();
+
         getTrailerId();
     }
 
+    private void displayBackdrop(){
+        //TODO: find what went wrong with glide here. I believe it has to do with the context.
+        Glide.with(ivBackdropImage.getContext())
+                .load(config.getImageUrl(config.getBackdropSize(), movie.getBackdropPath()))
+                .bitmapTransform(new RoundedCornersTransformation(ivBackdropImage.getContext(), 25, 0))
+                .placeholder(R.drawable.flicks_backdrop_placeholder)
+                .error(R.drawable.flicks_backdrop_placeholder)
+                .into(ivBackdropImage);
+    }
 
     private void getTrailerId(){
         //construct url with movie id to get list of YouTube trailer ids
@@ -93,6 +114,19 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 logError("Failed to get data from videos endpoint", throwable, true);
             }
         });
+    }
+
+    @OnClick(R.id.playButton)
+    public void playVideo(View view){
+        if(trailerId != null){
+            Intent intent = new Intent(getBaseContext(),MovieTrailerActivity.class);
+            intent.putExtra("youTubeKey", trailerId);
+            getBaseContext().startActivity(intent);
+        }
+        else{
+            logError("No trailers available", new Throwable(), false);
+        }
+
     }
 
 

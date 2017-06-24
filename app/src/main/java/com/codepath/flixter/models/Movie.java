@@ -11,7 +11,7 @@ import org.parceler.Parcel;
 @Parcel
 public class Movie {
 
-    //values form api
+    //values from api
     String title;
     String overview;
     String posterPath; // only the path

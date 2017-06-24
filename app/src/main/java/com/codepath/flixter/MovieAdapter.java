@@ -119,6 +119,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
                 intent.putExtra(Movie.class.getSimpleName(), Parcels.wrap(movie));
 
+                intent.putExtra(Config.class.getSimpleName(), Parcels.wrap(config));
+
                 context.startActivity(intent);
             }
         }
